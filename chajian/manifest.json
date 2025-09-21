@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub README Domainer",
+  "version": "1.0",
+  "description": "一键下载当前 GitHub 项目分类信息",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+     "https://api.github.com/*"
+   ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
